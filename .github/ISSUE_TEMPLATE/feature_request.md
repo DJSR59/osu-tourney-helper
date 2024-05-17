@@ -1,32 +1,40 @@
 ---
-name: Feature request
-about: Use this for new features
-title: ''
-labels: ''
+name: Feature Request Template
+about: Use this for new features and stories
+title: "[TEMPLATE] FEATURE REQUEST"
+labels: Feature
 assignees: DJSR59
 
 ---
 
-# [Issue Name]
+# <Feature Title>
 
-As a **user** I want to <u>something</u> so that .
+## User Story
 
-Associated Epic: [Epic Name]
+As a **<role>**, I want *<goal>*, so that <reason>.
+
+Associated Epic:
 
 ## Definition of Done
 
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ] Acceptance criteria defined
+- [ ] Solution tasks specified
+- [ ] Solution is *code complete*
+- [ ] Solution is well-tested
+- [ ] Pull request created
+- [ ] Code is reviewed
+- [ ] Acceptance criteria is met
+- [ ] Code is merged to `dev` branch
+- [ ] Feature is tested on `dev`
 
 ## Acceptance Criteria
 
-- [ ] 
-- [ ] 
-- [ ] 
+- [ ] Given **<initial context>**, when <event occurs>, then <some desired outcome>.
+- [ ] Given **<initial context>**, when <event occurs>, then <some desired outcome>.
+- [ ] Given **<initial context>**, when <event occurs>, then <some desired outcome>.
 
 ## Solution Tasks
 
-- [ ] 
-- [ ] 
-- [ ]
+- [ ] <Task 1>
+- [ ] <Task 2>
+- [ ] <Task 3>
