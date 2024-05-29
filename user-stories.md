@@ -1,55 +1,12 @@
-# osu! Tournament Helper Requirements
+# User Stories
 
-A defined list of requirements that are necessary for different aspects of the tournament helper. This is in the scope of not only the players, but also hosts and staff members. This set of requirements will only handle standard bracket-style team vs. team tournaments.
-
-## Table of Contents
-- [osu! Tournament Helper Requirements](#osu-tournament-helper-requirements)
-  - [Table of Contents](#table-of-contents)
-  - [Template](#template)
-  - [Tournament Management](#tournament-management)
-    - [General Users](#general-users)
-    - [Graphics Designers / Hosts](#graphics-designers--hosts)
-  - [Landing Page](#landing-page)
-    - [General Users](#general-users-1)
-    - [Hosts](#hosts)
-    - [Graphic Designers / Hosts](#graphic-designers--hosts)
-  - [Regristration](#regristration)
-    - [Captains](#captains)
-    - [Players](#players)
-    - [Free Agents](#free-agents)
-    - [Staff Members](#staff-members)
-    - [Hosts](#hosts-1)
-  - [Player Listing](#player-listing)
-    - [General](#general)
-    - [Players](#players-1)
-    - [Free Agent](#free-agent)
-    - [Captains](#captains-1)
-    - [Hosts](#hosts-2)
-  - [Mappool Player View](#mappool-player-view)
-    - [Players](#players-2)
-    - [Staff Members](#staff-members-1)
-    - [Hosts](#hosts-3)
-  - [Pooling](#pooling)
-    - [Workflow](#workflow)
-    - [New Workflow](#new-workflow)
-  - [New workflow for application](#new-workflow-for-application)
-    - [Users](#users)
-  - [Mappool Testing](#mappool-testing)
-  - [Scheduling](#scheduling)
-  - [Results](#results)
-  - [Bracket](#bracket)
-  - [Login](#login)
-  - [User Profiles](#user-profiles)
-  - [Tournament Viewing](#tournament-viewing)
-  - [Settings](#settings)
-    - [General User](#general-user)
-  - [Donations](#donations)
-    - [General User](#general-user-1)
+NOT BEING USED ANYMORE, ONLY FOR REFERENCE
 
 ## Template
 As a **user** I want to <u>something</u> so that .
 
 ## Tournament Management
+
 ### General Users
 - [ ] As a **user** I want to <u>view a listing which tournaments I am affiliated with</u> so that I can easily manage and view them.
 - [ ] As a **user** I want to <u>filter, search, and sort through my tournaments</u> so that I can easily search them.
@@ -60,6 +17,7 @@ As a **user** I want to <u>something</u> so that .
 - [ ] As a **graphics designer/host** I want to <u>insert a banner for the tournament viewing listing</u> so that the tournament is easily identifiable and has a unique theming compared to others.
 
 ## Landing Page
+
 ### General Users
 - [ ] As a **user** I want <u>a concise single-page view of the landing page</u> so that I can look for information as efficiently and quickly as possible.
 
@@ -74,24 +32,21 @@ As a **user** I want to <u>something</u> so that .
 Putting a pin on this one, idea needs to be more fleshed out in order for me to make requirements of it. For now, create a default landing page and use this.
 
 ## Regristration
+
 ### Captains
 - [ ] As a **captain** I want to <u>register my team</u> so that we can play in the tournament.
 - [ ] As a **captain** I want to <u>enter each member's osu! ID and Discord Tag</u> so that each team member is easily identifiable.
 - [ ] As a **captain** I want to <u>enter my team's general availability</u> so that the staff member's can accurately make default schedules that cater towards our availability.
-- [ ] As a **captain** I want to <u>edit my team</u> in case there has been any changes to my team members' information or availability. This should only be allowed before the tournament's screening process.
-- [ ] As a **captain** I want to <u>be notified by any changes to my team</u> so that I can act accordingly depending on the situation.
+- [ ] As a **captain** I want <u>the decline of a submission to not allow them to rerequest a submission</u> so to avoid a user spamming the request.
 
 ### Players
 - [ ] As a **player** I want to <u>be notified when my team is registered</u> so that I know that I will be playing in this tournament.
-- [ ] As a **player** I want to <u>have the option to leave a team</u> so that if I have another commitment or decide to move to a different team, I easily can.
-- [ ] As a **player** I want to <u></u> so that .
-- [ ] As a **player** I want to <u></u> so that .
 
 ### Free Agents
 - [ ] As a **free agent** I want to <u>register specifically as a free agent</u> so that I can be correctly labelled as a free agent in the regristration process.
+- [ ] As a **free agent** I want to <u>include any strengths or weaknesses I may have</u> so that other teams and captains can see if I'm a good fit for their team.
 - [ ] As a **free agent** I want to <u>send a request to the captain to join their team</u> so that they can recieve my notice and I can have an opportunity to potentially join their team.
 - [ ] As a **free agent** I want to <u>be notified when a team accepts my request</u> so that I know that I am actually on a team for the tournament.
-- [ ] As a **free agent** I want to <u>be notified if I'm forced on a team with other free agents</u> so that I know if I will be able to play in the tournament.
 
 ### Staff Members
 - [ ] As a **staff member** I want to <u>specifically register as a staff member</u> so that I can be accurately accepted for that.
@@ -104,22 +59,36 @@ Putting a pin on this one, idea needs to be more fleshed out in order for me to 
 - [ ] As a **host** I want to <u>accept or decline regristrations and notify the players on their submission acceptance</u>.
 - [ ] As a **host** I want to <u>setup roles</u> so that each person has different has different permissions depending on the role they registered/get accepted for.
 - [ ] As a **host** I want to <u>set the option for team's to enter a general availability</u> in case the tournament's availability extends across multiple time zones.
-- [ ] As a **host** I want to <u>be able to manually manage teams</u> in case a change is needed or requested after the screening process.
-- [ ] As a **host** I want to <u>be able to manually manage users' roles</u> so that if any changes occur, they can be easily dealt with.
 - [ ] As a **host** I want to <u>have the option to set BWS</u> so that if my tournament is based on BWS rank, it accurately shows it.
 
+## Team Management
+
+### Captains
+- [ ] As a **captain** I want to <u>edit my team</u> in case there has been any changes to my team members' information or availability. This should only be allowed before the tournament's screening process.
+- [ ] As a **captain** I want to <u>be notified by any changes to my team</u> so that I know if there's any changes that have happened to my team.
+- [ ] As a **captain**, after I leave my team, I want to <u>transfer my captain status to one of my team members</u> so that a captain can always be present for the team.
+
+### Players
+- [ ] As a **player** I want to <u>view my team</u> so that I know who is on my team and I can get information I need from them.
+- [ ] As a **player** I want to <u>have the option to leave a team</u> so that if I have another commitment or decide to move to a different team, I easily can.
+- [ ] As a **player** I want to <u>be notified by any changes to my team</u> so that I know if there's any changes that have happened to my team.
+
+### Admin
+- [ ] As an **admin** I want to <u>be able to manually manage teams</u> in case a change is needed or requested after the screening process.
+- [ ] As an **admin** I want to <u>be able to manually manage users' roles</u> so that if any changes occur, they can be easily dealt with.
+
 ## Player Listing
+
 ### General
 - [ ] As a **user** I want to <u>access a link to a player's profile</u> so that I can view their profile to see various information.
 - [ ] As a **user** I want to <u>see each player's rank</u> to get a vague gauge on a player's skill level.
 - [ ] As a **user** I want to <u>see a team's average rank</u> to get a vague gauge on a team's skill level.
 - [ ] As a **user** I want to <u>filter, search, and sort teams based on various criteria</u> so that I can effectively search for a team.
+- [ ] As a **user** I want to <u>view free agents even after regristration has ended</u> to see an accurate reading of which team members were originally free agents.
+- [ ] As a **user** I want to <u>see different views of the player/team listing</u> so that I can have an easier time looking for players or teams in the listing.
 
 ### Players
  - [ ] As a **player** I want to <u>see the player/team listing</u> so I know who else has entered into the tournament.
-- [ ] As a **player** I want to <u></u> so that .
-- [ ] As a **player** I want to <u></u> so that .
-- [ ] As a **player** I want to <u></u> so that .
 
 ### Free Agent
  - [ ] As a **free agent** I want to <u>view other free agents</u> to see if there's potential in making a team.
@@ -137,6 +106,7 @@ Putting a pin on this one, idea needs to be more fleshed out in order for me to 
  - [ ] As a **host** I want <u>information like a team's members or a player's rank to be updated dynamically</u> so that I do not have to manually update it.
 
 ## Mappool Player View
+
 ### Players
 - [ ] As a **player** I want to <u>view my tournament's mappool</u> so that I know what maps my team will have to play during the tournament.
 - [ ] As a **player** I want to <u>initially see the current round's mappool</u> so that I can easily see which mappool my team should be practicing.
@@ -154,26 +124,17 @@ Putting a pin on this one, idea needs to be more fleshed out in order for me to 
 - [ ] As a **host**, I want to <u>set each stages' pool size</u> to create an accurate progression that is up to my discretion.
 
 ## Pooling
-### Workflow
-Current workflow if done on a sheet
-- Connect to osu! API using the API key
-- Allow sheet to authorize scripts
-- Setup up mappools for each round
-- If needed, enter mod settings/definitions and suggestors
-- Sheet is updated and ready for entering suggestions
-- Once a suggestion is entered through a map id/url, information will autofill into the sheet
-- The suggestor will enter their name, the mod it should be used for, and any comments they have about it
-- Once suggested, the other poolers can see and come to a consensus whether to pool the map or not
-- Looking at the votes, if the map is agreed upon to be a good pick for a slot, it can be chosen for a specific slot
-
-### New Workflow
-New workflow for application
-- 
-
-### Users
-- [ ] As a **user** I want to <u>something</u> so that .
+- [ ] As a **suggestor** I want to <u>suggest a map</u> so that the poolers and staff members can review and possibly accept it into the mappool.
+- [ ] As a **pooler** I want to <u>vote to either accept or decline a map that was suggested</u> so that .
+- [ ] As a **pooler** I want to <u>provide reasoning for my vote</u> so that other staff members and suggestors can see why the map does work or does not work with the mappool.
+- [ ] As a **pooler** I want to <u>place a map from the suggestion listing onto the mappool</u> so that people know that the map moved to the mappool is planned to be a part of the finalized listing.
+- [ ] As a **pooler** I want to <u>change and remove maps in the mappool</u> so that the mappool can be updated with the most recent agreements of decisions.
+- [ ] As a **host** I want to <u>be able to customize the mappool</u> so that I can add custom slots or sizes depending on how I want my tournament to run.
+- [ ] As a **host** I want to <u>submit the mappool for testing</u> so that the testers can analyze the pool and ensure it is a good pool for the stage/tournament.
 
 ## Mappool Testing
+
+## Replaying
 
 ## Scheduling
 
@@ -189,12 +150,7 @@ New workflow for application
 
 ## Settings
 ### General User
-- [ ] As a **user** I want <u>a concise but well-defined set of settings I can change at any time</u> so that I can cater the application towards my needs.
-- [ ] As a **user** I want <u>the changes to the settings to apply immediately when I save</u>.
-- [ ] As a **user** I want <u>accessibility settings</u> so that I can use the application given my difficulties.
-- [ ] As a **user** I want <u>different theming modes</u> so that it doesn't hurt my eyes. :)
-
-## Donations
-### General User
 - [ ] As a **user** I want to <u>submit a donation</u> so that it can be sent to the staffing team.
 - [ ] As a **host** I want to <u>set up a donation link on the landing page</u> so that users who wish to donate have an easy link and icon to access.
+
+## Modularity
