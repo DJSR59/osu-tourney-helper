@@ -20,13 +20,13 @@ A basic initial breakdown of Epics and User Stories to be filed into GitHub Issu
 - Voting & Map Placement
 - Pool Modification
 - Pooling Setup
-- Custom Slotting
+  - Custom Slotting
 - Testing Submission
+  - Pool Modification Overwriting
 
 ## Testing
 - Testing Page
 - Pool Testing Feedback Submission
-- Pool Modification Overwriting
 - Pool Submission
 
 ## Replaying
@@ -34,17 +34,17 @@ A basic initial breakdown of Epics and User Stories to be filed into GitHub Issu
 - Replaying Submission
 - Replay Collection
 
-## Regristration
-- Regristration Setup
-- Team & Player Regristration
-- Free Agent Regristration
-- Staffing Regristration
+## Registration
+- Registration Setup
+- Team & Player Registration
+- Free Agent Registration
+- Staffing Registration
 
 ## Team Management
 - Team View Page
 - Team Join Request Submissions
 - Team Editing
-- Player Removal
+  - Player Removal
 - Admin Manual Management
 
 ## Player Listing
@@ -57,7 +57,7 @@ A basic initial breakdown of Epics and User Stories to be filed into GitHub Issu
 - Scheduling Page
 - Scheduling Functionality
 - Default Schedules
-- Staff Member Sign In
+- Staff Member Schedule Sign-Up
 
 ## Reffing
 - Referee Page
@@ -76,7 +76,7 @@ A basic initial breakdown of Epics and User Stories to be filed into GitHub Issu
 ## Bracket
 - Bracket Team Listing Layout
 - Bracket Styles
-- Bracket Style Selection
+  - Bracket Style Selection
 
 ## Tournament Management
 - Tournament Listing
@@ -90,9 +90,9 @@ A basic initial breakdown of Epics and User Stories to be filed into GitHub Issu
 ## User Accounts
 - Login Functionality
 - User Profiles
-- Role-Based Usage
+  - Role-Based Usage
 
 ## Global Settings & Usage
-- Settings
-- Modularity
-- Team Management Notifications
+- Settings Page
+  - Modularity
+- Notifications Page
